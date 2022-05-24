@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 1px solid;
+ }
+
+body {
+  background-color: rgb(236, 243, 244)
+}
+
+#main{
+ height: 100%;
+ \\background-color: rgb(146, 182, 198);
+ background-color: rgb(182, 207, 213);
+}
+
+.header {
+  padding: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header a {
+  color: rgb(35, 37, 41);
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: rgb(66, 88, 94);
+}
+
+ .logo {
+   float: left;
+ }
+  ul {
+    float: right;
+  }
+  ul li {
+    float: left;
+    padding-left:30px;
+    color:
+  }
+
+  .main_text h1 {
+    font-size: 5em;
+    font-family: 'Gamja Flower', cursive;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(35, 37, 41)
+  }
+
+ .next {
+   text-align: center;
+   margin-top: 250px;
+ }
+
+ .next a {
+   color: rgb(66, 88, 94)
+ }
+
+ .next a:hover{
+   color: rgb(35, 37, 41)
+ }
+  #sub{
+    height: 100%;
+  }
+
+  .sub_text {
+  float: left;
+  padding: 50px;
+  margin: 100px; margin-top: 200px;
+  }
+
+  .fon_dp {
+    font-size: 5em;
+  }
+
+  .sub_image {
+    float: right;
+    margin-right: 100px;
+  }
+
+  .sub_image img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .content2 {
+  margin: 150px 50px;
+  padding: 20px;
+  height: 70%
+  }
+
+  .last {
+    height: 400px;
+  }
+  .icon_image {
+    width: 236px; height: 250px; float: left;
+    margin-left: 55px;
+
+  }
+
+  #footer {
+    clear: both;
+    height: 100px;
+  }
