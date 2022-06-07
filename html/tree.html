@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>나무이야기</title>
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+
+  <!--header-->
+  <section class="header" id="header">
+    <nav>
+      <a href="../index.html"><img src="../image/logo.png" alt=""></a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html #header">Main</a></li>
+          <li><a href="../index.html #story">Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!--main text-->
+    <div class="row">
+      <div class="text-box">
+          <h1>안녕, 나는 <span>목의 속성</span>이야!</h1>
+          <p>굵고 곧은 것, 뻗어 나가려는 의지, 의욕, 성장 명예 상징</p>
+      </div>
+   </div>
+  </section>
+
+  <!-- story -->
+  <section class="sotory" id="story">
+    <div class="row">
+      <div class="col-1">
+         <img src="../image/tree1.png"  class="sub-img">
+         <p>나는 봄에 피어나는 새싹과 같아요.<br>
+             새싹은 아주 여리지만 땅을 뚫고 나오는 강력한 힘을 가졌지요.<br>
+             그래서 저는 스테미너가 아무 많이 넘친답니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <img src="../image/tree2.png" class="sub-img">
+        <p>나는 추진력이 강해요.  새싹이 자라는 것처럼 무엇을 키우는 것을 잘한답니다.<br>
+           그래서 교육이나 육영사업이 적성에 맞아요</p>
+      </div>
+    </div>
+  </section>
+
+<!-- fivelayer -->
+  <section class="five">
+    <div class="row">
+      <div class="five-col">
+        <img src="../image/tr.png" alt="">
+        <a href="#" ><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/fa.png" alt="">
+        <a href="#"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/sa.png" alt="">
+        <a href="#"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/wt.png" alt="">
+        <a href="#"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/go.png" alt="">
+        <a href="#"><div class="layer">
+        </div></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--- javascript for toggle menu ------->
+  <script>
+  var navlink = document.getElementById("navlink");
+
+  function showMenu(){
+     navlink.style.right = "0";
+  }
+  function hideMenu(){
+     navlink.style.right = "-200px";
+  }
+  </script>
+</body>
+</html>
