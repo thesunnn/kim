@@ -157,7 +157,7 @@ nav .fa{
 .col-1{
   max-width: 800px;
   padding-left: 10%;
-text-align: center;
+  text-align: center;
 }
 
 .col-1 img{
@@ -173,7 +173,7 @@ text-align: center;
 .col-1 h2{
   font-size: 24px;
   font-weight: 600;
-  line-height: 50px;
+  margin: 10px 0;
   color: #444444;
 }
 
@@ -186,6 +186,7 @@ text-align: center;
 @media(max-width: 700px){
   .col-1{
     padding-top: 20%;
+        text-align: left;
   }
 
   .col-1 h1{
@@ -243,12 +244,14 @@ text-align: center;
 
   @media (max-width: 700px){
     .five h1{
+      text-align: left;
       font-size: 22px;
       line-height: 55px;
     }
 
     .five p{
       font-size: 16px;
+            text-align: left;
     }
  }
 
