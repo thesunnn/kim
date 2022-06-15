@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>토의 이야기</title>
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body >
+
+  <!--header-->
+  <section class="header" id="header" style="background-image: url(../image/ssbg.png);">
+    <nav>
+      <a href="../index.html"><img src="../image/logo.png" alt=""></a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html #header">Main</a></li>
+          <li><a href="../index.html #story">Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!--main text-->
+    <div class="row">
+      <div class="text-box">
+          <h1 style="color: rgb(107, 104, 87)">안녕, 나는 <span style="color: rgb(60, 55, 36)">토의 속성</span>이야!</h1>
+          <p style="color:rgb(107, 104, 87)"> 기중 중에 습기나 윤기가 있어서 기운과 더불어 활동하는 모습</p>
+      </div>
+   </div>
+  </section>
+
+  <!-- story -->
+  <section class="story" id="story">
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  data-aos-duration="2000" data-aos-once="true">
+         <img src="../image/sand1.png" >
+         <p>대지가 모든 것을 포용하듯이 나는 포용력이 좋아요.<br>
+            어머니가 아이를 품에 안는 것처럼 사람을 품는 능력이 있답니다. </p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  >
+        <img src="../image/sand2.png" >
+        <p>나를 주장하는 것보다 중재하고 조절하는 것을 잘한답니다.<br>
+           자신의 뚜렷한 색깔이 없어서 회색분자라고 오해도 받지만 <br>
+           나는 그냥 모나지 않게 주변을 맞출 뿐입니다. </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  >
+        <img src="../image/sand3.png" >
+        <p>나는 중개업이 잘 맞기도 하구요<br>
+           흙이란 나무가 자랄 수 있는 터전이 되므로 학교 이사장이 되기도 한답니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- fivelayer -->
+    <section class="five">
+      <div class="row">
+        <div class="five-col">
+          <img src="../image/tt.png" alt="">
+          <a href="tree.html" ><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ff.png" alt="">
+          <a href="fire.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ss.png" alt="">
+          <a href="sand.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/gg.png" alt="">
+          <a href="gold.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ww.png" alt="">
+          <a href="water.html"><div class="layer">
+          </div></a>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="five" id="end">
+      <a href="#header"><p> △ </p></a>
+    </select>
+
+
+  <!-- footer -->
+  <section class="footer">
+    <p>copyrightⓒ 2022 All rights reserved by KimHaeGnag</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--- javascript for toggle menu ------->
+  <script>
+  var navlink = document.getElementById("navlink");
+
+  function showMenu(){
+     navlink.style.right = "0";
+  }
+  function hideMenu(){
+     navlink.style.right = "-200px";
+  }
+  </script>
+  <!--scroll-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+
+</body>
+</html>

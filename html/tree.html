@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>목의 이야기</title>
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body >
+
+  <!--header-->
+  <section class="header" id="header">
+    <nav>
+      <a href="../index.html"><img src="../image/logo.png" alt=""></a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html #header">Main</a></li>
+          <li><a href="../index.html #story">Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!--main text-->
+    <div class="row">
+      <div class="text-box">
+          <h1>안녕, 나는 <span>목의 속성</span>이야!</h1>
+          <p>땅에서 아지랑이가 올라오고 햇살이 따뜻하고 바람이 살랑살 부는 것 같은 모습</p>
+
+      </div>
+
+   </div>
+  </section>
+
+  <!-- story -->
+  <section class="story" id="story">
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  data-aos-duration="2000"  data-aos-once="true">
+         <img src="../image/tree1.png" >
+         <p> 나는 봄에 피어나는 새싹과 같아요.<br>
+             새싹은 아주 여리지만 땅을 뚫고 나오는 강력한 힘을 가졌지요.<br>
+             그래서 저는 스테미너가 아무 많이 넘친답니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up">
+        <img src="../image/tree2.png"  >
+        <p>나는 추진력도 아주 아주 강해요. <br>
+           새싹이 자라는 것처럼 무엇을 키우는 것을 잘한답니다.<br>
+           그리고 목의 성질을 가장 많이 대표하듯이 종이 또는 섬유에 관련된 일을 잘 한답니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up">
+        <img src="../image/tree3.png" >
+        <p> 또한 포용력이 좋아 교육이나 육영사업도 적성에 정말 잘 맞는것 같아요.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- fivelayer -->
+  <section class="five">
+    <div class="row">
+      <div class="five-col">
+        <img src="../image/tt.png" alt="">
+        <a href="tree.html" ><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/ff.png" alt="">
+        <a href="fire.html"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/ss.png" alt="">
+        <a href="sand.html"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/gg.png" alt="">
+        <a href="gold.html"><div class="layer">
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="../image/ww.png" alt="">
+        <a href="water.html"><div class="layer">
+        </div></a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="five" id="end">
+    <a href="#header"><p> △ </p></a>
+  </section>
+
+
+  <!-- footer -->
+  <section class="footer">
+    <p>copyrightⓒ 2022 All rights reserved by KimHaeGang</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--- javascript for toggle menu ------->
+  <script>
+  var navlink = document.getElementById("navlink");
+
+  function showMenu(){
+     navlink.style.right = "0";
+  }
+  function hideMenu(){
+     navlink.style.right = "-200px";
+  }
+  </script>
+  <!--scroll-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+
+</body>
+</html>

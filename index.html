@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>김김박사의 오행연구소</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!--header-->
+  <section class="header" id="header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png" alt=""></a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#header">Main</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="html/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>김김박사의 오행연구소</h1>
+      <p>음과 양은 아무것도 없는 전무한 상태에서 생겨났어요. 그리고 양이 극에 다들 하면 음이 생성된다고 합니다.
+        <br>출발하여 올라가는 현상을 양이라 하며 마무리가 되는 단계를 음이라 하죠.</p>
+      <a href="#story-1" class="next">NEXT</a>
+    </div>
+  </section>
+
+  <section class="story" id="story-1">
+    <div class="row">
+      <div class="col-1">
+        <h1>오행이야기</h1>
+        <h2>당신은 어떤 속성을 가졌나요?</h2>
+            <p>세상에 있는 생명에는 모두 에너지가 있어요.<br>
+            사람이나 나무, 동물 등 모든 같은 생명 에너지를 갖고 있죠.<br>
+            생명에너지를 크게 다섯개로 나누는데 이를 오행이라고 해요.</p>
+        <img src="image/we.png" alt="" >
+      </div>
+    </div>
+  </section>
+
+  <!-- five layer -->
+  <section class="five" id="story">
+    <h1> 다섯가지의 속성</h1>
+    <p> 나무, 불, 흙, 금, 물 친구들의 개성강한 이야기 </p>
+
+    <div class="row">
+      <div class="five-col">
+        <img src="image/tt.png" alt="">
+        <a href="html/tree.html" ><div class="layer">
+          <h3>나는 나무!</h3>
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="image/ff.png" alt="">
+        <a href="html/fire.html"><div class="layer">
+          <h3>나는 불!</h3>
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="image/ss.png" alt="">
+        <a href="html/sand.html"><div class="layer">
+          <h3>나는 흙!</h3>
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="image/gg.png" alt="">
+        <a href="html/gold.html"><div class="layer">
+          <h3>나는 금!</h3>
+        </div></a>
+      </div>
+
+      <div class="five-col">
+        <img src="image/ww.png" alt="">
+        <a href="html/water.html"><div class="layer">
+          <h3>나는 물!</h3>
+        </div></a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="five" id="end">
+    <a href="#header"><p> △ </p></a>
+  </section>
+
+  <!-- footer -->
+  <section class="footer">
+    <p>copyrightⓒ 2022 All rights reserved by KimHaeGang</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--- javascript for toggle menu ------->
+  <script>
+  var navlink = document.getElementById("navlink");
+
+  function showMenu(){
+     navlink.style.right = "0";
+  }
+  function hideMenu(){
+     navlink.style.right = "-200px";
+  }
+  </script>
+</body>
+</html>

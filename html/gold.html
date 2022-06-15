@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>금의 이야기</title>
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body >
+
+  <!--header-->
+  <section class="header" id="header" style="background-image: url(../image/ggbg.png);">
+    <nav>
+      <a href="../index.html"><img src="../image/logo.png" alt=""></a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html #header">Main</a></li>
+          <li><a href="../index.html #story">Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!--main text-->
+    <div class="row">
+      <div class="text-box">
+          <h1 style="color: rgb(122, 122, 96)">안녕, 나는 <span style="color: rgb(106, 106, 46)">금의 속성</span>이야!</h1>
+          <p style="color:rgb(122, 122, 96)"> 무성하고 활발한 기운을 식히면서 웃는 모습, 수렴하는 기운</p>
+      </div>
+   </div>
+  </section>
+
+  <!-- story -->
+  <section class="story" id="story">
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  data-aos-duration="2000" data-aos-once="true">
+         <img src="../image/gold1.png" >
+         <p>금은 쇠나 바위의 성질이에요.<br>
+            그래서 나는 결단력이 강한 편이랍니다.  </p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up"  >
+        <img src="../image/gold2.png" >
+        <p>조금 차가운 느낌이 들기도 하며 강단있는 결정을 잘해요.<br>
+       또한 가을에 열매와 같아서 결실을 잘 맺는 장점도 있답니다. </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1" data-aos="fade-up" >
+        <img src="../image/gold3.png"  >
+        <p>나는 금속을 잘다루는 나는 컴퓨터 관련일, 자동차관련일, 보석을 세공하는 일에 관심이 많아요.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- fivelayer -->
+    <section class="five">
+      <div class="row">
+        <div class="five-col">
+          <img src="../image/tt.png" alt="">
+          <a href="tree.html" ><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ff.png" alt="">
+          <a href="fire.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ss.png" alt="">
+          <a href="sand.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/gg.png" alt="">
+          <a href="gold.html"><div class="layer">
+          </div></a>
+        </div>
+
+        <div class="five-col">
+          <img src="../image/ww.png" alt="">
+          <a href="water.html"><div class="layer">
+          </div></a>
+        </div>
+     </div>
+
+    </section>
+
+
+    <section class="five" id="end">
+      <a href="#header"><p> △ </p></a>
+    </select>
+
+
+  <!-- footer -->
+  <section class="footer">
+    <p>copyrightⓒ 2022 All rights reserved by KimHaeGnag</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--- javascript for toggle menu ------->
+  <script>
+  var navlink = document.getElementById("navlink");
+
+  function showMenu(){
+     navlink.style.right = "0";
+  }
+  function hideMenu(){
+     navlink.style.right = "-200px";
+  }
+  </script>
+  <!--scroll-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+
+</body>
+</html>
